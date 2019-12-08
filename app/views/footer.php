@@ -5,8 +5,6 @@
 ---->
 
 
-
-
    <!-- Scripts --------------------------------------------------------------------------------->
    <script src="../public/vendors/js/jquery.js"></script>
    <script src="../public/vendors/js/popper.min.js"></script>
