@@ -5,12 +5,10 @@
 ---->
     </div>
 <!-- Scripts --------------------------------------------------------------------------------->
-        <script src="./vendors/js/jquery-3.4.1.js"></script>
-        <script src="./vendors/js/popper.min.js"></script>
-        <script src="./vendors/js/bootstrap.min.js"></script>
-        <script src="./resources/js/index.js"></script>
-
+        <script src="../public/vendors/js/jquery-3.4.1.js"></script>
+        <script src="../public/vendors/js/popper.min.js"></script>
+        <script src="../public/vendors/js/bootstrap.min.js"></script>
+     
         <!-- Fonts Awesome script -->
-        <!-- <script defer src="/frameworks/fontawesome-free-5.11.2-web/js/all.js"></script>  -->
-    </body>
+ <script defer src="../public/vendors/fontawesome/js/all.js"></script> <!--load all styles -->    </body>
 </html>

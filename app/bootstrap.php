@@ -12,6 +12,6 @@
 require_once __DIR__ .'/libraries/Database.php';
 
 //loading views
-require_once __DIR__.'/views/form.php';
+//require_once __DIR__.'/views/form.php';
 
 ?>

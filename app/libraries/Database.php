@@ -30,8 +30,6 @@ class Database
         ///configuresthe connection
         if (!$link) {
             die('Connect Error ('.mysqli_connect_errno().')'.mysqli_connect_errno());
-        } else {
-            //echo 'Success....'.$link->host_info.'\n';
         }
         $link->close();
     }
