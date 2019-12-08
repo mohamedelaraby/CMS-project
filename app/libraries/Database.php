@@ -16,5 +16,5 @@ echo 'Welcome from databse class';
 }
 }
 
-$database = new Database();
+//$database = new Database();
 ?>
