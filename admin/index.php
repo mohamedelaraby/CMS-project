@@ -7,8 +7,8 @@
 ?>
 
 
-<?php include_once '../app/views/admin-header.php'; ?>
-<?php include_once '../app/views/admin-nav.php'; ?>
+<?php include_once '../app/views/admin-page/admin-header.php'; ?>
+<?php include_once '../app/views/admin-page/admin-nav.php'; ?>
 
 
 

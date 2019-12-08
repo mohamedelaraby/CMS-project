@@ -1,9 +1,25 @@
-   <!---
-[  author ]  ;- Muhammed alaraby
-[  Date   ]  ;-  5/12/19
-[  Info   ]  ;-   Main Footer
----->
+<?php
+/*---
+[  author ] ;- Muhammed alaraby
+[  Date   ] ;- 19/10/19
+[  Info   ] ;- Main Footer
+----*/
+?>
 
+<!-- ------------------------------------------------------------------------------- -->
+  <!-- Footer -->
+  <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Your Website 2014</p>
+                </div>
+                <!-- /.col-lg-12 -->
+            </div>
+            <!-- /.row -->
+        </footer>
+
+    </div>
+    <!-- /.container -->
 
    <!-- Scripts --------------------------------------------------------------------------------->
    <script src="../public/vendors/js/jquery.js"></script>
