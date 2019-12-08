@@ -16,5 +16,5 @@
     <title>CMS - a control managment system</title>
 
 </head>
-    <body class="bg-dark">
+    <body class="bg-secondary">
     <div class="container">
