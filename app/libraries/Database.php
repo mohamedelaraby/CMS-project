@@ -15,6 +15,7 @@ class Database{
     protected $db_user = 'root';
     protected $db_password = '';
     protected $db_name = 'cms';
+    private $db_connection = '';
 
     public function __construct(){
         $this->databaseConnection();
@@ -34,14 +35,22 @@ class Database{
         }
 
 
-        $link = mysqli_connect(DB_HOST,DB_USER,DB_PASS,DB_NAME);
+        $this->db_connection = mysqli_connect(DB_HOST,DB_USER,DB_PASS,DB_NAME);
 
         ///configuresthe connection
-        if (!$link) {
+        if (!$this->db_connection) {
             die('Connect Error ('.mysqli_connect_errno().')'.mysqli_connect_errno());
         }
-        $link->close();
+       
+       
     }
+
+
+// [ getQuery ] :- Returns database query ;
+    public function getQuery($query){
+        return mysqli_query($this->db_connection,$query);
+    }
+    
 
     
 }

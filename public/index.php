@@ -8,7 +8,6 @@
 
 <!-- ------------------------------------------------------------------------------- -->
 
-<?php include_once '../app/bootstrap.php'; ?>
 
 <?php include_once '../app/views/header.php'; ?>
 <?php include_once '../app/views/home-page/home-nav.php'; ?>
