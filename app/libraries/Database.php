@@ -42,6 +42,8 @@ class Database{
         }
         $link->close();
     }
+
+    
 }
 
 $database = new Database();
