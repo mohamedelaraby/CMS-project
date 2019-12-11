@@ -12,7 +12,7 @@
 
 <?php include_once '../app/views/header.php'; ?>
 <?php include_once '../app/views/home-page/home-nav.php'; ?>
-<?php // include_once '../app/views/home-page/home-page-content.php'; ?>
+<?php include_once '../app/views/home-page/home-page-content.php'; ?>
 <?php include_once '../app/views/home-page/home-sideBar.php'; ?>
 
 

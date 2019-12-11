@@ -17,13 +17,34 @@
     <!-- GET DATA FROM SEARCH ENGINE -->
     <?php
     
-    $search = $_POST['search'];
-    echo $search;
+    if(isset($_POST['submit'])){
+        $search = $_POST['search'];
+        
+        // Search query
+        $query= "SELECT  * FROM posts WHERE post_title LIKE '%".$search."%'";
+        $search_query = $database->getQuery($query);
+        if(!$search_query){
+            die("Trying again in another time".mysqli_error($databas->databaseConnection));
+        }
+        
+        // Get the number of rows
+        $count =  mysqli_num_rows($search_query);
+        if($count == 0){
+           echo '<h1>NO  RESULTS</h1>';
+        }
+    
+    } else {
+      //  echo '<h1>NO  RESULTS</h1>';    
+    }
+    
     
     ?>
 
+
+
+
     <!-- [ SEARCH FORM] -->
-    <form action="index.php" method="POST">
+    <form action="" method="post">
     <div class="input-group">
         <input type="text" name="search" class="form-control">
         <span class="input-group-btn">
