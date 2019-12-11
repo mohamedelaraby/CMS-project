@@ -41,7 +41,7 @@ class Database{
         if (!$this->db_connection) {
             die('Connect Error ('.mysqli_connect_errno().')'.mysqli_connect_errno());
         }
-       
+       //mysqli_close($this->db_connection);
        
     }
 
